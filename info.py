@@ -35,11 +35,11 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001844691460'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002205049781'))  
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001844691460'))  
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001844691460')) 
-auth_grp = environ.get('AUTH_GROUP')
+auth_grp = environ.get('AUTH_GROUP', '-1002281207481')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002384821467') 
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '') 
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002085372939') 
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://BoB:Mishraji99@cluster0.v99uneo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
