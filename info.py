@@ -50,7 +50,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'shiv')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://shiv:shiv99@cluster0.bew71ug.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/BoB_AreA')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/BoB_AreA1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/BoB_Files1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/assaulter_shiv')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/bob_files1')
